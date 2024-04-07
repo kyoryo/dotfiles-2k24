@@ -1,0 +1,9 @@
+# composer
+# --experimental-backends flag tend to get weird fps so I disabled it for now
+picom --animations --animation-for-open-window fly-in -b &
+
+# status bar (this section moved to respective wm)
+# polybar &
+
+# wallpaper
+nitrogen --restore
