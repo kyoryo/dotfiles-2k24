@@ -7,8 +7,8 @@
     alignment = "left"
     vertical_alignment = "center"
     ellipsize = "middle"
-    offset = "15x15"
-    padding = 15
+    offset = "15x40"
+    padding = 15 
     horizontal_padding = 15
     text_icon_padding = 15
     icon_position = "left"
@@ -32,10 +32,10 @@
     history_length = 20 
     show_age_threshold = 60 
     markup = "full" 
-    font = "monospace 10" 
+    font = "Jetbrains Nerd Font 12" 
     format = "<b>%s</b>\n%b" 
     word_wrap = "yes" 
-    sort = "yes" 
+    sort = "update" 
     shrink = "no" 
     indicate_hidden = "yes" 
     sticky_history = "yes" 
