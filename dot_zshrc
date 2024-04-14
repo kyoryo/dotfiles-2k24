@@ -109,5 +109,8 @@ alias cat='bat --paging=never'
 alias -g -- -h='-h 2>&1 | bat --language=help --style=plain'
 alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 
+# init zoxide
+eval "$(zoxide init zsh)"
+
 # should be on bottom (?) -- higlight command
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
