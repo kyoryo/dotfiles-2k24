@@ -111,6 +111,8 @@ alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 
 # init zoxide
 eval "$(zoxide init zsh)"
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
 
 # should be on bottom (?) -- higlight command
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
